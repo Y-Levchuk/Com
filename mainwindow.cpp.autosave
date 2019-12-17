@@ -111,11 +111,6 @@ ostream& operator<<(ostream& s, const Technology& t){
     return s;
 }
 
-
-
-
-
-
 void MainWindow::on_treeWidget_itemActivated(QTreeWidgetItem *item, int column)
 {
     QString e,s="";
